@@ -1,0 +1,64 @@
+* {
+  font-family: "Mukta", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  color: white;
+  background-color: #ed8e29;
+}
+
+.contenedor {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.contenedor > * {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  flex: 0 0 5%;
+}
+
+/* header img {
+  opacity: 0.75;
+  height: 60px;
+} */
+
+main {
+  flex: 0 0 90%;
+  align-items: center; 
+}
+
+.contenedor-main{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.contenedor-btn{
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  flex: 0 0 5%;
+}
+
+.design {
+  font-family: "Mukta", sans-serif;
+}
+
+.redes img {
+  width: 32px;
+  height: 32px;
+}
