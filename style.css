@@ -35,7 +35,7 @@ main {
 }
 
 .contenedor-main{
-  height: 940px;
+  height: 460px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -57,10 +57,10 @@ main {
 }
 
 #text-area-input:focus {
-    outline: none;
-    background-color: rgba(255, 255, 255, 0.926);
-    color: gray;
-    font-size: 18px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.926);
+  color: gray;
+  font-size: 18px;
 }
 
 .contenedor-btn{
@@ -69,9 +69,42 @@ main {
   gap: 25px;
 }
 
-.botones {
+.contenedor-btn button {
   height: 40px;
-  width: 110px;
+  width: 200px;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 20px;
+  border: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: background-color 0.5s;
+}
+
+.contenedor-btn button:hover{
+  background-color: rgba(255, 255, 255,0.75);
+  color: gray;
+}
+.contenedor-btn button:active{
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.btn-encrip {
+  background-image: url(/images/lock.png);
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+}
+
+.btn-descrip {
+  background-image: url(/images/lock.png);
+  background-repeat: no-repeat;
+  background-position: 10% 50%; 
+}
+
+.btn-copy {
+  background-image: url(/images/copy.png);
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  visibility: hidden;
 }
 
 #text-area-output {
