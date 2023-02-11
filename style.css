@@ -28,13 +28,12 @@ header {
   margin-top: 20px;
 }
 
-
 main {
   flex: 0 0 90%;
-  align-items: center; 
+  align-items: center;
 }
 
-.contenedor-main{
+.contenedor-main {
   height: 460px;
   width: 100%;
   display: flex;
@@ -63,7 +62,7 @@ main {
   font-size: 18px;
 }
 
-.contenedor-btn{
+.contenedor-btn {
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -80,11 +79,11 @@ main {
   transition: background-color 0.5s;
 }
 
-.contenedor-btn button:hover{
-  background-color: rgba(255, 255, 255,0.75);
+.contenedor-btn button:hover {
+  background-color: rgba(255, 255, 255, 0.75);
   color: gray;
 }
-.contenedor-btn button:active{
+.contenedor-btn button:active {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
@@ -97,7 +96,7 @@ main {
 .btn-descrip {
   background-image: url(/images/lock.png);
   background-repeat: no-repeat;
-  background-position: 10% 50%; 
+  background-position: 10% 50%;
 }
 
 .btn-copy {
