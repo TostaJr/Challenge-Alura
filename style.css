@@ -62,6 +62,10 @@ main {
   font-size: 18px;
 }
 
+.contenedor-input h3 {
+  margin-top: 5px;
+}
+
 .contenedor-btn {
   display: flex;
   flex-direction: column;
