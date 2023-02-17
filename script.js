@@ -12,7 +12,7 @@ function botonEncriptar() {
 function botonDescencriptar() {
     const textoEncriptado = desencriptar(textInput.value);
     textOutput.value = textoEncriptado;
-    textInput.value = "";
+    textInput.value = " ";
 }
 
 function botonCopiar() {
